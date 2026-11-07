@@ -25,7 +25,7 @@ A technical learning/development workspace centered on an STM32F103-based 4-seri
 - **External interface:** the upstream design includes an **SN65HVD230 CAN transceiver** for the CAN physical layer. The CAN transceiver is not a UART interface, and this repository does not implement CAN firmware.
 - **Power hardware:** upstream KiCad PCB; no independent verification of its current rating or safety has been performed here.
 
-![I2C transaction concept](docs/assets/i2c-transaction.svg)
+
 
 ## Quick start: view the PCB
 

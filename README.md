@@ -50,7 +50,7 @@ cc -std=c11 -Wall -Wextra -Werror -pedantic -Ifirmware \
 ./i2c_tests
 ```
 
-These tests use fake callbacks and **do not communicate with physical I2C peripherals**. More detail is in [`docs/I2C_INTEGRATION.md`](docs/I2C_INTEGRATION.md).
+These tests use fake callbacks and **do not communicate with physical I2C peripherals**. More detail is in [`docs/I2C_INTEGRATION.md`](I2C_INTEGRATION.md).
 
 ## Firmware scope
 

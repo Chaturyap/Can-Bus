@@ -1,12 +1,10 @@
 # STM32 BMS — I2C Driver & CAN Hardware Reference
 
-![Project banner](docs/assets/banner.svg)
 
 > **Project stage:** KiCad hardware reference + portable I2C driver starter and host-mock unit tests. **No claim of a fabricated board, hardware validation, or completed BQ76952 firmware integration.**
 
 A technical learning/development workspace centered on an STM32F103-based 4-series battery-management PCB with a BQ76952 battery-monitoring IC and a CAN physical interface. It pairs an **existing open-source KiCad reference design** with a new, **portable I2C transaction-layer example**, an automated mock-test harness, and a documentation workflow for extending and validating the project yourself.
 
-![System block diagram](docs/assets/architecture.svg)
 
 ## What is here
 

@@ -65,7 +65,7 @@ It does **not** implement complete BQ76952 command framing, data memory access, 
 
 ## Evidence and contribution tracking
 
-If you are using this for a project portfolio or DreamStream reporting, record **only activities you actually completed**. Use [`docs/MY_CONTRIBUTIONS.md`](docs/MY_CONTRIBUTIONS.md) to log your changes, actual work dates, commits, test output, and review notes. Git commit timestamps cannot legitimately be backdated to imply earlier project activity.
+If you are using this for a project portfolio or DreamStream reporting, record **only activities you actually completed**. Use [`docs/MY_CONTRIBUTIONS.md`](ATTRIBUTION.md) to log your changes, actual work dates, commits, test output, and review notes. Git commit timestamps cannot legitimately be backdated to imply earlier project activity.
 
 ## Known limitations
 

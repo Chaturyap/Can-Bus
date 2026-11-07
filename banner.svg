@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+  <title id="title">STM32 BMS — I2C and CAN project</title>
+  <desc id="desc">Stylized engineering-themed banner with a microcontroller and data bus illustration.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101e34"/><stop offset="1" stop-color="#172c42"/></linearGradient>
+    <linearGradient id="accent" x2="1"><stop stop-color="#4cd7c1"/><stop offset="1" stop-color="#8dd7ff"/></linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#6580a0" stroke-opacity=".12"/></pattern>
+  </defs>
+  <rect width="1200" height="330" rx="20" fill="url(#bg)"/><rect width="1200" height="330" rx="20" fill="url(#grid)"/>
+  <g transform="translate(72 62)" stroke="#64d8c8" fill="none" stroke-width="5">
+    <rect x="44" y="18" width="174" height="174" rx="22" fill="#193c51"/>
+    <rect x="80" y="54" width="102" height="102" rx="11" stroke="#9edbe9" stroke-width="3"/>
+    <path d="M50 0V18M86 0V18M122 0V18M158 0V18M194 0V18M50 192V210M86 192V210M122 192V210M158 192V210M194 192V210M24 42H44M24 78H44M24 114H44M24 150H44M24 186H44M218 42H238M218 78H238M218 114H238M218 150H238M218 186H238"/>
+    <path d="M100 106h22l15-30 20 60 12-28h18" stroke="#80d5ff" stroke-width="4"/>
+    <circle cx="245" cy="42" r="7" fill="#64d8c8" stroke="none"/><circle cx="245" cy="150" r="7" fill="#64d8c8" stroke="none"/>
+  </g>
+  <text x="384" y="113" fill="white" font-family="Arial, sans-serif" font-size="51" font-weight="700">STM32 BMS</text>
+  <text x="386" y="173" fill="url(#accent)" font-family="Arial, sans-serif" font-size="43" font-weight="600">I2C DRIVER + CAN REFERENCE</text>
+  <text x="388" y="229" fill="#b3c6d7" font-family="Arial, sans-serif" font-size="23">KiCad hardware reference  •  Portable C driver  •  Host-mock tests</text>
+  <rect x="389" y="252" width="221" height="34" rx="17" fill="#1e4a50" stroke="#3c998b"/>
+  <text x="499" y="275" text-anchor="middle" fill="#bcf6eb" font-family="Arial, sans-serif" font-size="16" font-weight="600">Prototype / learning</text>
+</svg>

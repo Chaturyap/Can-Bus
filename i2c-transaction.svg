@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="350" viewBox="0 0 1100 350" role="img" aria-labelledby="title desc">
+<title id="title">Illustrative I2C combined transaction</title><desc id="desc">Protocol sequence showing start, 7-bit address and write, command, repeated start, address and read, data and stop.</desc>
+<rect width="1100" height="350" rx="20" fill="#f9fbfd"/>
+<text x="45" y="57" font-family="Arial" font-size="30" font-weight="700" fill="#17324d">I2C combined write/read — conceptual flow</text>
+<text x="45" y="87" font-family="Arial" font-size="17" fill="#597188">One possible transfer shape; actual BQ76952 commands require device-specific framing</text>
+<g font-family="Arial" font-size="18" font-weight="700" text-anchor="middle">
+<rect x="36" y="154" width="116" height="75" rx="12" fill="#cfece3"/><text x="94" y="184" fill="#215c4d">START</text><text x="94" y="205" fill="#357969" font-size="14">S</text>
+<rect x="167" y="154" width="160" height="75" rx="12" fill="#e0edfb"/><text x="247" y="184" fill="#285c83">ADDR + W</text><text x="247" y="205" fill="#396d93" font-size="14">+ ACK</text>
+<rect x="342" y="154" width="145" height="75" rx="12" fill="#e0edfb"/><text x="414" y="184" fill="#285c83">COMMAND</text><text x="414" y="205" fill="#396d93" font-size="14">+ ACK</text>
+<rect x="502" y="154" width="132" height="75" rx="12" fill="#cfece3"/><text x="568" y="183" fill="#215c4d">RESTART</text><text x="568" y="205" fill="#357969" font-size="14">Sr</text>
+<rect x="649" y="154" width="144" height="75" rx="12" fill="#e0edfb"/><text x="721" y="184" fill="#285c83">ADDR + R</text><text x="721" y="205" fill="#396d93" font-size="14">+ ACK</text>
+<rect x="808" y="154" width="136" height="75" rx="12" fill="#fff1db"/><text x="876" y="184" fill="#98662c">DATA</text><text x="876" y="205" fill="#98662c" font-size="14">ACK/NACK</text>
+<rect x="959" y="154" width="106" height="75" rx="12" fill="#f2dfe4"/><text x="1012" y="184" fill="#9d4760">STOP</text><text x="1012" y="205" fill="#9d4760" font-size="14">P</text>
+</g>
+<path d="M153 192h13m162 0h13m146 0h14m134 0h13m145 0h14m136 0h14" stroke="#677c8c" stroke-width="3"/>
+<rect x="46" y="271" width="1009" height="47" rx="12" fill="#eaf1f7"/>
+<text x="65" y="300" font-family="Arial" font-size="17" fill="#45617b">The `write_read` callback represents one combined transfer; it must not be replaced with a STOP-separated pair by accident.</text>
+</svg>

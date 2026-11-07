@@ -76,6 +76,6 @@ If you are using this for a project portfolio or DreamStream reporting, record *
 
 ## Original design, licensing and attribution
 
-The KiCad schematic, PCB layout, project settings and `fp-lib-table` were copied **unchanged** from the MIT-licensed open-source project **BMS-Can-Bus** by **Hasan Berk Daşar**. Original source: https://github.com/hasanberkdasar/BMS-Can-Bus . The original MIT `LICENSE` is preserved at the repository root. Read [`docs/ATTRIBUTION.md`](docs/ATTRIBUTION.md) for the file-level breakdown.
+The KiCad schematic, PCB layout, project settings and `fp-lib-table` were copied **unchanged** from the MIT-licensed open-source project **BMS-Can-Bus** by **Hasan Berk Daşar**. Original source: https://github.com/hasanberkdasar/BMS-Can-Bus . The original MIT `LICENSE` is preserved at the repository root. Read [`docs/ATTRIBUTION.md`](ATTRIBUTION.md) for the file-level breakdown.
 
 The additional README, SVG illustrations, firmware starter and test harness in this package were newly assembled as an extension to the reference. Review, adapt, run, and document your actual modifications before representing any portion as your own completed engineering contribution.
